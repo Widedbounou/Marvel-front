@@ -6,7 +6,6 @@ import Cookies from "js-cookie";
 
 import Card from "../Components/Card";
 import ComicCard from "../Components/ComicsCard";
-// import Loader from "../components/Loader";
 
 const MyCollection = ({ fav, handleRemoveFav }) => {
   const [data, setData] = useState([]);
