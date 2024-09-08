@@ -12,7 +12,7 @@ const ComicsPerCharacter = () => {
   useEffect(() => {
     const fetchData = async () => {
       const response = await axios.get(
-        `https://lereacteur-marvel.herokuapp.com/comics/${id}`
+        `http://localhost:3000/comics/${id}`
       );
       setData(response.data.comics);
       console.log(response.data);
